@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 5000 5000" style="enable-background:new 0 0 5000 5000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#043353;}
+	.st1{fill:url(#Polygon_2_1_);}
+	.st2{fill:url(#Polygon_3_1_);}
+</style>
+<g id="Logo" transform="translate(0.347)">
+	
+		<rect id="Rectangle_14" x="1928.7" y="1651" transform="matrix(0.866 -0.5 0.5 0.866 -891.2872 1599.6957)" class="st0" width="1221.5" height="1624.1"/>
+	
+		<linearGradient id="Polygon_2_1_" gradientUnits="userSpaceOnUse" x1="-17.2935" y1="5031.5581" x2="-17.2935" y2="4983.4922" gradientTransform="matrix(-55 0 0 47 2317.5681 -232895)">
+		<stop  offset="0" style="stop-color:#18A4E0"/>
+		<stop  offset="1" style="stop-color:#257CA2"/>
+	</linearGradient>
+	<path id="Polygon_2" class="st1" d="M3268.7,3588.2L1946.9,1329.1h2643.6L3268.7,3588.2z"/>
+	
+		<linearGradient id="Polygon_3_1_" gradientUnits="userSpaceOnUse" x1="-7.7844" y1="5017.5078" x2="-7.7844" y2="4969.4419" gradientTransform="matrix(55 0 0 -47 2158.738 237152)">
+		<stop  offset="0" style="stop-color:#18A4E0"/>
+		<stop  offset="1" style="stop-color:#257CA2"/>
+	</linearGradient>
+	<path id="Polygon_3" class="st2" d="M1730.6,1329.1l1321.8,2259.1H408.8L1730.6,1329.1z"/>
+</g>
+</svg>
