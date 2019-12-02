@@ -2,11 +2,11 @@ import React from 'react';
 
 const RecentActions = () => {
     return (
-        <div>
-            <ul>
-                <li>Action 1</li>
-                <li>Action 2</li>
-                <li>Action 3</li>
+        <div className="recent-actions--container">
+            <ul className="recent-actions--list">
+                <li className="recent-actions--item">Action 1</li>
+                <li className="recent-actions--item">Action 2</li>
+                <li className="recent-actions--item">Action 3</li>
             </ul>
         </div>
     );
