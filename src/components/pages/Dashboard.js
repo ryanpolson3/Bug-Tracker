@@ -4,7 +4,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div>
-                This is the dashboard
+                This is the NEW dashboard
             </div>
         );
     }
