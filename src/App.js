@@ -6,7 +6,7 @@ import './styles/global.scss';
 // Layout
 import Header from './components/layout/Header';
 import LeftNav from './components/layout/LeftNav';
-import RecentActions from './components/layout/RecentActions';
+import RecentActionsContainer from './components/layout/RecentActionsContainer';
 
 // Pages
 import Dashboard from './components/pages/Dashboard';
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/bugs" component={Bugs} />
           </Switch>
         </div>
-        <RecentActions />
+        <RecentActionsContainer />
       </div>
     </Router>
 

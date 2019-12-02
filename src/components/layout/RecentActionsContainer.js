@@ -1,10 +1,12 @@
 import React from 'react';
 
-const RecentActions = () => {
+import RecentActionItem from '../utils/recentActionItems';
+
+const RecentActionsContainer = () => {
     return (
         <div className="recent-actions--container">
             <ul className="recent-actions--list">
-                <li className="recent-actions--item">Action 1</li>
+                <RecentActionItem userName="John Smith" position="Senior Manager" description="added new user to the team!" />
                 <li className="recent-actions--item">Action 2</li>
                 <li className="recent-actions--item">Action 3</li>
             </ul>
@@ -12,4 +14,4 @@ const RecentActions = () => {
     );
 };
 
-export default RecentActions;
+export default RecentActionsContainer;
