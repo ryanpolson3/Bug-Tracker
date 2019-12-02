@@ -10,12 +10,12 @@ const Header = () => {
                         <img src={Logo} className="header--logo" alt="bug-tracker-logo"/>
                     </div>
                     <div className="col-6">
-                        <ul className="header--time-list__container">
-                            <li className="header--time-list__item">Live</li>
-                            <li className="header--time-list__item">Daily</li>
-                            <li className="header--time-list__item">Weekly</li>
-                            <li className="header--time-list__item">Monthly</li>
-                            <li className="header--time-list__item">Yearly</li>
+                        <ul className="header--item-list__container">
+                            <li className="header--item-list__item">Live</li>
+                            <li className="header--item-list__item">Daily</li>
+                            <li className="header--item-list__item">Weekly</li>
+                            <li className="header--item-list__item">Monthly</li>
+                            <li className="header--item-list__item">Yearly</li>
                         </ul>
                     </div>
                 </div>

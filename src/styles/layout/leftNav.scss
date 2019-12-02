@@ -1,0 +1,10 @@
+@import "../variables.scss";
+
+.left-nav--container {
+    background-color: $darkBlue;
+    width: 200px;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    height: 100vh;
+}

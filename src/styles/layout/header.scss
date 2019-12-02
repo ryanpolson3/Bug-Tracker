@@ -2,17 +2,13 @@
 
 .header {
     background-color: $lightBlue;
-    h1 {
-        font-size: 50px;
-        color: white;
-    }
     .header--logo {
         width: 60px;
     }
-    .header--time-list__container {
+    .header--item-list__container {
         list-style-type: none;
         padding: 15px 0px;
-        .header--time-list__item {
+        .header--item-list__item {
             text-decoration: none;
             float: left;
             padding: 0px 10px;

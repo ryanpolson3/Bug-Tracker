@@ -3,7 +3,7 @@ import { Switch, Link} from 'react-router-dom';
 
 const LeftNav = () => {
     return (
-            <div>
+            <div className="left-nav--container">
                 <Switch>
                     <ul>
                         <li><Link to="/dashboard">Dashboard</Link></li>

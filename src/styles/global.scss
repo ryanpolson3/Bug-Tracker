@@ -1,2 +1,10 @@
 @import "./variables.scss";
 @import "./layout/header.scss";
+@import "./layout/leftNav.scss";
+@import "./layout/recentActions.scss";
+
+// global styles
+
+.App {
+    position: relative;
+}
