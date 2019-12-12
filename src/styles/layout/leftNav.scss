@@ -2,10 +2,20 @@
 
 .left-nav--container {
     background-color: $darkBlue;
-    width: 200px;
-    position: absolute;
-    z-index: 999;
-    top: 0px;
-    height: 100vh;
-    bottom: 0px;
+    width: 100%; /* 200px */
+    > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .left-nav--container {
+        position: absolute; /* fixed */
+        z-index: 999;
+        top: 0px;
+        height: 100vh;
+        bottom: 0px;
+    }
 }

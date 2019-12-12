@@ -1,17 +1,24 @@
 // Global styles
-
-.App {
-    position: relative;
+#root {
     background: rgb(2,38,62);
     background: linear-gradient(122deg, rgba(2,38,62,1) 0%, rgba(0,88,142,1) 100%);
-    height: 100vh;
-    
+    height: 100vh; 
+}
+
+.App  {
+    position: relative;
+    background: inherit;
+    .container-fluid{
+        padding: 0;
+    }
 }
 
 @import "./variables.scss";
 
 // Utils 
 @import "./utils/recentActionsItem.scss";
+@import "./utils/BugContainer.scss";
+@import "./utils/BugItem.scss";
 
 // Layout
 @import "./layout/header.scss";
@@ -19,4 +26,4 @@
 @import "./layout/recentActions.scss";
 
 // Pages
-
+@import "./pages/bugs.scss";

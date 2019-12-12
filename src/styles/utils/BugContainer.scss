@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+.bug-container--large-container {
+    .bug-container--priority-text {
+        color: $orange;
+    }
+    .bug-container--small-container {
+        border: 3px solid $lightBlue;
+        border-radius: 5px;
+    }
+}
