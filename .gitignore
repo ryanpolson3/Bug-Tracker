@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+git_commands.txt
+
+git branch 'branch name' // create a branch
+git checkout 'branch name' // switches you to new branch
+
+// while in master branch
+git merge 'file name' -m 'some message' // merges file to master branch with message

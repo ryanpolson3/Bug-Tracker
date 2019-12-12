@@ -1,0 +1,158 @@
+@import  "../variables.scss";
+
+.bug-item--container {
+    background-color: $orange;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    .bug-item--user-icon {
+        img {
+            width: 80%;
+        }
+    }
+
+    .bug-item--bug-info {
+        color: $white;
+        font-size: .6rem;
+
+        .bug-item--bug-name {
+            font-size: 1.5rem;
+        }
+
+        .bug-item--bug_id {
+            margin-right: 4px;
+        }
+
+        .but-item--date_created {
+            margin: 0px 4px;
+        }
+
+        .bug-item--owner {
+            margin: 0px 4px;
+        }
+    }
+
+    .bug-item--flagunfillediconwhite {}
+}
+
+@media screen and (min-width: 768px) {
+    .bug-item--container {
+    
+        .bug-item--user-icon {
+            img {
+                width: 70%;
+            }
+        }
+
+        .bug-item--bug-info {
+            font-size: 1rem;
+    
+            .bug-item--bug-name {
+                font-size: 1.7rem;
+            }
+    
+            .bug-item--bug_id {
+                margin-right: 8px;
+            }
+    
+            .but-item--date_created {
+                margin: 0 8px;
+            }
+    
+            .bug-item--owner {
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bug-item--container {
+
+        .bug-item--user-icon {
+            img {
+                width: 75%;
+            }
+        }
+    
+        .bug-item--bug-info {
+            font-size: 1rem;
+    
+            .bug-item--bug-name {
+                font-size: 2rem;
+            }
+    
+            .bug-item--bug_id {
+                margin-right: 8px;
+            }
+    
+            .but-item--date_created {
+                margin: 0 8px;
+            }
+    
+            .bug-item--owner {
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bug-item--container {
+
+
+        .bug-item--user-icon {
+            img {
+                width: 100%;
+            }
+        }
+    
+        .bug-item--bug-info {
+            font-size: .5rem;
+    
+            .bug-item--bug-name {
+                font-size: 1.5rem;
+            }
+    
+            .bug-item--bug_id {
+                margin-right: 8px;
+            }
+    
+            .but-item--date_created {
+                margin: 0 8px;
+            }
+    
+            .bug-item--owner {
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .bug-item--container {
+    
+        .bug-item--bug-info {
+            font-size: 1rem;
+    
+            .bug-item--bug-name {
+                font-size: 2rem;
+            }
+    
+            .bug-item--bug_id {
+                margin-right: 8px;
+            }
+    
+            .but-item--date_created {
+                margin: 0 8px;
+            }
+    
+            .bug-item--owner {
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+
