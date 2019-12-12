@@ -5,7 +5,6 @@ import FlagUnfilledIconWhite from '../../../assets/flagUnfilledIconWhite.svg';
 
 const BugItem = (props) => {
     const { bug_id, date_created, owner, name } = props;
-
     return (
         <div className="bug-item--container">
             <div className="row no-gutters align-items-center">

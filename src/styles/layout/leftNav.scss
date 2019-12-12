@@ -3,10 +3,12 @@
 .left-nav--container {
     background-color: $darkBlue;
     width: 100%; /* 200px */
-    > ul {
+    ul {
         list-style: none;
         margin: 0;
         padding: 0;
+        li {
+        }
     }
 }
 
