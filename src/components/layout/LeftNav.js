@@ -1,17 +1,17 @@
 import React from 'react';
-import { Switch, Link} from 'react-router-dom';
+import { Switch, NavLink} from 'react-router-dom';
 
 const LeftNav = () => {
     return (
             <div className="left-nav--container">
                 <Switch>
                     <ul>
-                        <li><Link to="/dashboard">Dashboard</Link></li>
-                        <li><Link to="/bugs">Bugs</Link></li>
-                        <li><Link to="/tickets">Tickets</Link></li>
-                        <li><Link to="/reports">Reports</Link></li>
-                        <li><Link to="/settings">Settings</Link></li>
-                        <li><Link to="/help">Help</Link></li>
+                        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+                        <li><NavLink to="/bugs">Bugs</NavLink></li>
+                        <li><NavLink to="/tickets">Tickets</NavLink></li>
+                        <li><NavLink to="/reports">Reports</NavLink></li>
+                        <li><NavLink to="/settings">Settings</NavLink></li>
+                        <li><NavLink to="/help">Help</NavLink></li>
                     </ul>
                 </Switch>
             </div>
