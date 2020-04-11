@@ -2,18 +2,58 @@
 
 .header {
     background-color: $lightBlue;
-    height: $headerHeight;
-    .header--logo {
-        width: 60px;
-    }
-    .header--item-list__container {
-        list-style-type: none;
-        padding: 15px 0px;
-        .header--item-list__item {
-            text-decoration: none;
-            float: left;
-            padding: 0px 10px;
-            color: white;
+    
+    .logo {
+        //border: 1px solid #fff;
+        text-align: center;
+
+        img {
+            width: 22%;
+            //border: 1px solid #fff;
         }
     }
+
+    .nav {
+        //border: 1px solid #fff;
+        
+        ul {
+            list-style-type: none;
+            margin: 18px 0;
+
+            li {
+                display: inline-block;
+                padding: 0 10px;
+                text-decoration: none;
+                font-size: $lg;
+                font-weight: 300;
+                color: white;
+            }
+        }
+    }
+
+    .login {
+        //border: 1px solid #fff;
+        margin: 0 auto;
+        padding: 13px 0;
+        text-align: center;
+
+        img {
+            //border: 1px solid #fff;
+            width: 10%;
+        }
+
+        p {
+            display: inline-block;
+            margin: 0;
+            margin-left: 20px;
+            vertical-align: middle;
+            color: $white;
+            font-weight: 300;
+
+            span {
+                padding-right: 10px;
+            }
+        }
+    }
+
 }
