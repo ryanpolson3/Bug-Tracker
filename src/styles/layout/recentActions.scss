@@ -1,11 +1,45 @@
 @import "../variables.scss";
 
-.recent-actions--container {
-    /* position: absolute;
-    width: 200px;
-    right: 0px;
-    height: calc(100vh - 60px);
-    top: $headerHeight;
-    bottom: 0px;
-    */
+.recent-actions {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    align-items: center;
+
+    .profileImage {
+        border: 1px solid #fff;
+        img {
+            border: 1px solid #fff;
+            width: 100%;
+            
+            border-radius: 5px;
+
+            
+        }
+    }
+
+    .info {
+        border: 1px solid #fff;
+        
+
+        p {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        .name {
+            font-size: $m;
+            font-weight: 600;
+        }
+
+        .role {
+            font-size: $sm;
+        }
+
+        .ticket-name {
+            font-size: $sm;
+        }
+    }
 }
