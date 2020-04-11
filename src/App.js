@@ -5,8 +5,8 @@ import './styles/global.scss';
 
 // Layout
 import Header from './components/layout/Header';
-import LeftNav from './components/layout/LeftNav';
-import RecentActionsContainer from './components/layout/RecentActionsContainer';
+import Nav from './components/layout/Nav';
+import RecentActions from './components/layout/RecentActions';
 
 // Pages
 import Dashboard from './components/pages/Dashboard';
@@ -19,19 +19,19 @@ function App() {
         <div className="container-fluid">
           <div className="row no-gutters">
             <div className="col-md-1">
-              <LeftNav />
+              <Nav />
             </div>
             <div className="col-md-11">
-              <Header />
+              <Header/>
               <div className="row no-gutters">
-                <div id="Main" className="col-sm-8 col-md-10">
+                <div id="Main" className="col-sm-8 col-md-9">
                   <Switch>
                     <Route exact path="/dashboard" component={Dashboard} />
                     <Route exact path="/bugs" component={Bugs} />
                   </Switch>
                 </div>
-                <div className="col-sm-4 col-md-2">
-                  <RecentActionsContainer />
+                <div className="col-sm-4 col-md-3">
+                  <RecentActions/>
                 </div>
               </div>
             </div>
