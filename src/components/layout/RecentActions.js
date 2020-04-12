@@ -2,16 +2,16 @@ import React from 'react';
 import profileImage from "../../assets/profile.jpg"
 
 
-import RecentActionItem from '../utils/recentActionItems';
+import recentTickets from '../utils/recentTickets';
 
 const RecentActions = () => {
     return (
         <div className="recent-actions">
-            {/*<ul className="recent-actions--list">
-                <RecentActionItem userName="John Smith" position="Senior Manager" description="added new user to the team!" />
+            <ul className="recent-actions--list">
+                <recentTickets userName="John Smith" position="Senior Manager" description="added new user to the team!" />
                 <li className="recent-actions--item">Action 2</li>
                 <li className="recent-actions--item">Action 3</li>
-    </ul>*/}
+    </ul>
             <div className="row">
                 <div className="col-sm-2 profileImage">
                     <img src={profileImage} alt="Prfile Image" />

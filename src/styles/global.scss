@@ -13,17 +13,17 @@
     }
 }
 
-@import "./variables.scss";
-
-// Utils 
-@import "./utils/recentActionsItem.scss";
-@import "./utils/BugContainer.scss";
-@import "./utils/BugItem.scss";
+@import "./theme.scss";
 
 // Layout
 @import "./layout/header.scss";
-@import "./layout/Nav.scss";
+@import "./layout/nav.scss";
 @import "./layout/recentActions.scss";
+
+// Utils 
+@import "./utils/recentTickets.scss";
+@import "./utils/BugContainer.scss";
+@import "./utils/BugItem.scss";
 
 // Pages
 @import "./pages/bugs.scss";

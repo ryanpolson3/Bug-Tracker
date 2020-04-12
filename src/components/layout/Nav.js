@@ -1,9 +1,18 @@
 import React from 'react';
-import { Switch, NavLink} from 'react-router-dom';
+import { Switch, NavLink } from 'react-router-dom';
 
 const Nav = () => {
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+
     return (
-        <div className="switch">
+        <div className="nav">
+            <div class="hamburger-button" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <Switch>
                 <nav className="nav flex-column">
                     <li><NavLink className="fa fa-tachometer-alt" to="/dashboard"> Dashboard</NavLink></li>
@@ -15,7 +24,7 @@ const Nav = () => {
                 </nav>
             </Switch>
         </div>
-    );
+    ); 
 };
 
 export default Nav;

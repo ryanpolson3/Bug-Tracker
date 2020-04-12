@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecentActionItems = (props) => {
+const recentTickets = (props) => {
     const  {userName, position, description}  = props;
     return (
         <div className="recent-actions--item__container">
@@ -11,4 +11,4 @@ const RecentActionItems = (props) => {
     );
 };
 
-export default RecentActionItems;
+export default recentTickets;
